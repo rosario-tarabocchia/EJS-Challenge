@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+
+<% blogPost.forEach(function(post) { %>
+
+  <h1><%= post.postTitle %></h1>
+  <p><%= post.postBody %></p>
+
+<% }); %>
+
+
+
+
+<%- include("partials/footer") %>
