@@ -15,6 +15,14 @@
     color: #1abc9c !important;
 }
 
+.truncate {
+  max-width: 100ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
 .footer-padding {
 	padding-bottom: 60px;
 }
